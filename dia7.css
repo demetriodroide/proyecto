@@ -76,5 +76,14 @@ p {
     border-radius: 10px;
 }
 
+#locas {     
+        margin-left: auto;
+        margin-right: auto;
+        transition: transform 5s;     
 
+    }
+
+#locas:hover {
+        transform: translate(1000px, 100px);
+}
 

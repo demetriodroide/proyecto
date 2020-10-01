@@ -28,15 +28,21 @@ div.presentacion {
 div.info1 {
     word-wrap: break-word;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    
 }
 
 div.info2 { 
     word-wrap: break-word;
+    border: 1px solid black;
+    border-radius: 10px;
     
 }
 
 div.info3 { 
-
+    border: 1px solid black;
+    border-radius: 10px;
     word-wrap: break-word;
 }
 
@@ -47,12 +53,11 @@ div.contacto {
     color:black;
     text-align: center;
     border-radius: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    border: 1px solid black;
 }
 
-
-th, td, tr {
-border: 1px solid black;
-}
 
 body {
     background-image: url(fondo.jpg);
@@ -74,7 +79,27 @@ p {
     background-color:#dcf8c6;
     text-align: center;
     border-radius: 10px;
+    
 }
 
+#locas {     
+        margin-left: auto;
+        margin-right: auto;
+        transition: transform 5s;     
 
+    }
 
+#locas:hover {
+        transform: translate(1000px, 100px);
+}
+
+/*div.cajaextra {
+    border: 1px solid black;
+    border-radius: 10px;
+    }
+*/
+iframe {
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
